@@ -28,7 +28,7 @@ a {
 }
 
 p {
-  margin-left = 3px;
+  margin-left: 10px;
 }
 
 img {
@@ -55,4 +55,9 @@ table {
 }
 
 
+@media screen and (max-width: 175px)  {
+h1, h2, h3 {
+    font-size: 15px;
+  }
+}
 
